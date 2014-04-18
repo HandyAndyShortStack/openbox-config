@@ -1,0 +1,66 @@
+    <!-- Keybindings for running applications on Home-->
+    <keybind key="W-f">
+      <action name="Execute">
+        <startupnotify>
+          <enabled>true</enabled>
+          <name>PCManFM</name>
+        </startupnotify>
+        <command>pcmanfm</command>
+      </action>
+    </keybind>
+    <keybind key="W-e">
+      <action name="Execute">
+        <startupnotify>
+          <enabled>true</enabled>
+          <name>SublimeText</name>
+        </startupnotify>
+        <command>subl</command>
+      </action>
+    </keybind>
+    <keybind key="W-w">
+      <action name="Execute">
+        <startupnotify>
+          <enabled>true</enabled>
+          <name>Chrome</name>
+        </startupnotify>
+        <command>google-chrome</command>
+      </action>
+    </keybind>
+    <keybind key="W-t">
+      <action name="Execute">
+        <startupnotify>
+          <enabled>true</enabled>
+          <name>LXTerminal</name>
+        </startupnotify>
+        <command>lxterminal -e "bash -il"</command>
+      </action>
+    </keybind>
+    <!-- Keybindings to manipulate windows -->
+    <keybind key="W-Left">
+      <action name="UnmaximizeFull"/>
+      <action name="MoveResizeTo">
+        <x>0</x>
+        <y>0</y>
+        <width>50%</width>
+        <height>97%</height>
+      </action>
+    </keybind>
+    <keybind key="W-Right">
+      <action name="UnmaximizeFull"/>
+      <action name="MoveResizeTo">
+        <x>1/2</x>
+        <y>0</y>
+        <width>50%</width>
+        <height>97%</height>
+      </action>
+    </keybind>
+    <keybind key="C-W-Left">
+      <action name="MoveResizeTo">
+        <monitor>1</monitor>
+      </action>
+    </keybind>
+    <keybind key="C-W-Right">
+      <action name="MoveResizeTo">
+        <monitor>2</monitor>
+      </action>
+    </keybind>
